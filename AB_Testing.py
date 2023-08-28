@@ -19,17 +19,8 @@
 
 
 
-import numpy as np
 import pandas as pd
-import seaborn as sns
-import matplotlib.pyplot as plt
-# !pip install statsmodels
-import itertools
-import statsmodels.stats.api as sms
-from scipy.stats import ttest_1samp, shapiro, levene, ttest_ind, mannwhitneyu, \
-    pearsonr, spearmanr, kendalltau, f_oneway, kruskal
-from statsmodels.stats.proportion import proportions_ztest
-
+from scipy.stats import shapiro, levene, ttest_ind
 pd.set_option('display.max_columns', None)
 pd.set_option('display.max_rows', 10000)
 pd.set_option('display.width', 500)
