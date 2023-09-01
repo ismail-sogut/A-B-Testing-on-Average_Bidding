@@ -7,3 +7,5 @@ One of our clients made the decision to test this new functionality and run an A
 Since the A/B test has been running for a month, and our client is now anticipating our analysis of the test's outcomes. The key success factor for them is "Purchase."
 
 Statistics testing should therefore concentrate on the Purchase metric.
+
+#abtest #python #datascience #abtesting
